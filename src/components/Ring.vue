@@ -12,14 +12,8 @@
                         <th>Gender</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>15-17</td>
-                        <td>2nd-3rd Degree</td>
-                        <td>Traditional</td>
-                        <td>Boys</td>
-                    </tr> 
+                <tbody>       
+                    <info-component></info-component>
                 </tbody>
             </table>
         </div>
@@ -27,7 +21,11 @@
 </template>
 
 <script>
+import Info from './RingInfo.vue';
+
 export default {
-  
+    components: {
+        'info-component': Info
+    }
 }
 </script>
