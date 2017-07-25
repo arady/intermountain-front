@@ -13,7 +13,7 @@
                     </tr>
                 </thead>
                 <tbody>       
-                    <info-component></info-component>
+                    <info-component v-for="info in 12"></info-component>
                 </tbody>
             </table>
         </div>
